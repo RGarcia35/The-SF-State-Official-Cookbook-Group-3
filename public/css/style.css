@@ -1,73 +1,64 @@
-ul {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: rgb(19, 23, 46);
-  }
 
-  li {
-    float: left;
-  }
-  
-  li:last-child {
-    border-right: none;
-  }
-
-  li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 16px 30px;
-    text-decoration: none;
-  }
-  
-  /* Change the link color to #111 (black) on hover */
-  li a:hover {
-    background-color: #111;
-  }
-
-  .active {
-    background-color: #04AA6D;
-  }
-
-
-  /* Select dropdown button */
-.searchInput{
-  width: auto;
-  margin: 0;
-  margin-top: 7px;
-  padding: 8px 75px 10px 35px;
+.topnav {
+  overflow: hidden;
+  width: 100%;
+  background-color: #291183;
 }
-.button{
-  width: auto;
-  margin: 0;
-  padding: 0px 20px 0px 20px;
-}
-.select-dropdown {
-  width: auto;
-  margin: 0;
-  margin-top: 7px;
 
-  background-color: #e6e6e6;
-  border-radius: 3px;
-  margin-right: 30px;
-  margin-left: 40px;
+.topnav a {
+  float: left;
+  display: block;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 14px 50px;
+  text-decoration: none;
+  font-size: 17px;
 }
-.select-dropdown select {
-  font-size: 1rem;
-  font-weight: normal;
-  max-width: 100%;
-  padding: 8px 75px 10px 25px;
+
+.topnav a:hover {
+  background-color: rgb(142, 136, 226);
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #ecbd1f;
+  color: rgb(0, 0, 0);
+}
+
+.topnav .search-container {
+  padding: 0 0 0 18%;
+  margin-top: 5px;
+  float: left;
+}
+
+.topnav .search-container select{
+  padding: 0 55px 0 10px;
+  background-color: whitesmoke;
+}
+.topnav input[type=text] {
+  text-align: left;
+  padding: 0 35px 0 10px;
+  font-size: 17px;
   border: none;
-  background-color: transparent;
+}
 
+.topnav .search-container button {
+
+  margin-top: 8px;
+
+  background: #ecbd1f;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+  color: black;
 }
-.select-dropdown select:active,
-.select-dropdown select:focus {
-  outline: none;
-  box-shadow: none;
+
+.topnav .search-container button:hover {
+  background: #ffdf77;
 }
+
+
+
+
+
+

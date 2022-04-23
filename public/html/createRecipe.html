@@ -7,29 +7,32 @@
 
 <body>
     <!-- Nav Bar Starts-->
-    <ul>
-        <li><a href="../html/index.html">Home</a></li>
-        <li><a href="../html/browseRecipes.html">Browse</a></li>
-        <li style = "float:right"><a href="../html/login.html">Login or Register</a></li>
-        <li>
-            <div class="select-dropdown">
-                <select name="category" id="category">
-                    <option value="">All Categories</option>
-                    <option value="">Italian</option>
-                    <option value="">American</option>
-                    <option value="">Asian</option>
-                    <option value="">Mexican</option>
-                    <option value="">French</option>
-                    <option value="">Vegiterranean</option>
-                    <option value="">Vegan</option>
-                </select>
-            </div>
-            
-        </li>
-        <li><input class="searchInput" id="search" type="text" name="search" placeholder="Search..." autocomplete="off" /></li>
-        <li><a href = "../html/searchResults.html"><button class ="button">Search</button></a></li>    
-    </ul>
-    <!-- Nav Bar Ends-->
+    <div class="topnav">
+        <a href="../html/index.html">Home</a>
+        <a href="../html/browseRecipes.html">Browse Recipes</a>
+        <div class="search-container">
+          <form action="../html/searchResults.html">
+            <select name="category" id="category">
+                <option value="">All Categories</option>
+                <option value="">Italian</option>
+                <option value="">American</option>
+                <option value="">Asian</option>
+                <option value="">Mexican</option>
+                <option value="">French</option>
+                <option value="">Vegiterranean</option>
+                <option value="">Vegan</option>
+            </select>
+            <input type="text" placeholder="Search.." name="search" autocomplete="off" >
+            <button type="submit">Submit</button>
+          </form>
+        </div>
+        <a style="float:right" href="../html/login.html">Login/Register</a>
+      </div>
+      
+      <div style="padding-left:35%">
+        <h1>Create Recipe</h1>
+      </div>
+
 </body>
 
 </html>
