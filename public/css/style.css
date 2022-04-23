@@ -1,0 +1,73 @@
+ul {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(19, 23, 46);
+  }
+
+  li {
+    float: left;
+  }
+  
+  li:last-child {
+    border-right: none;
+  }
+
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px 30px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #111;
+  }
+
+  .active {
+    background-color: #04AA6D;
+  }
+
+
+  /* Select dropdown button */
+.searchInput{
+  width: auto;
+  margin: 0;
+  margin-top: 7px;
+  padding: 8px 75px 10px 35px;
+}
+.button{
+  width: auto;
+  margin: 0;
+  padding: 0px 20px 0px 20px;
+}
+.select-dropdown {
+  width: auto;
+  margin: 0;
+  margin-top: 7px;
+
+  background-color: #e6e6e6;
+  border-radius: 3px;
+  margin-right: 30px;
+  margin-left: 40px;
+}
+.select-dropdown select {
+  font-size: 1rem;
+  font-weight: normal;
+  max-width: 100%;
+  padding: 8px 75px 10px 25px;
+  border: none;
+  background-color: transparent;
+
+}
+.select-dropdown select:active,
+.select-dropdown select:focus {
+  outline: none;
+  box-shadow: none;
+}
