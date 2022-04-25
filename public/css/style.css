@@ -60,5 +60,39 @@
 
 
 
+.container label{
+  display: block;
+  text-align: center;
+  margin: 0 10% 0 2%;
 
+}
 
+.container button{
+  margin-top: 8px;
+  margin: 8px 15% 0 43.5%;
+  background: #ecbd1f;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+  color: black;
+  padding: 5px 25px;
+}
+
+.container button:hover {
+  background: #ffdf77;
+}
+
+.container input[type=text], input[type=password] {
+  width: 45%;
+  padding: 12px 25px;
+  margin: 8px 10% 8px 24%;
+  display: block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* The "Forgot password" text */
+span.psw {
+  float: left;
+  margin: 8px 15% 0 43.5%;
+}
