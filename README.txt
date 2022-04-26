@@ -1,4 +1,5 @@
 In order to run the server on localhost:3000
 enter:
-node runServer.js
+npm i
+node runServer.js or npm start
 into terminal 

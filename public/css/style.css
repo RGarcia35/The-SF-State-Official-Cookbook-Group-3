@@ -139,3 +139,12 @@ img:hover{
   background: #ffdf77;
 }
 
+.card-body {
+  display: inline-grid;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  grid-template-columns: repeat(auto-fill, minmax(380px, 1fr));
+  grid-gap: 15px;
+  background-color: #1f88df;
+  border-radius: 10px;
+}
