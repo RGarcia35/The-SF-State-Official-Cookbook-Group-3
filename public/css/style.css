@@ -96,3 +96,46 @@ span.psw {
   float: left;
   margin: 8px 15% 0 43.5%;
 }
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 9px;
+  padding-right: 80px;
+}
+
+.row{
+  padding-left: 34%;
+  width:33.33%;
+  text-align: center;
+}
+img:hover{
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition:.5s;
+  box-shadow: 10px 10px 5px #1a1919;
+}
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.container2 button{
+  margin-top: 8px;
+  margin: 8px 12% 0 42%;
+  background: #ecbd1f;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+  color: black;
+  padding: 5px 25px;
+}
+
+.container2 button:hover {
+  background: #ffdf77;
+}
+
