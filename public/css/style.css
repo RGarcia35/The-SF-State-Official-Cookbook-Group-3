@@ -115,7 +115,7 @@ img:hover{
   -moz-transition:.5s;
   -webkit-transition:.5s;
   transition:.5s;
-  box-shadow: 10px 10px 5px #1a1919;
+  box-shadow: 5px 2px 5px #1a1919;
 }
 /* Clear floats after image containers */
 .row::after {
