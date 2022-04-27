@@ -109,6 +109,17 @@ span.psw {
   width:33.33%;
   text-align: center;
 }
+
+.column2{
+  float: left;
+  padding-left: 38px;
+}
+
+.row2{
+  padding-left: 200px;
+
+}
+
 img:hover{
   -o-transition:.5s;
   -ms-transition:.5s;
