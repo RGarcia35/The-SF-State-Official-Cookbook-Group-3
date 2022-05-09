@@ -105,18 +105,18 @@ span.psw {
 }
 
 .row{
-  padding-left: 34%;
-  width:33.33%;
+  padding-left: 28%;
+  width:50%;
   text-align: center;
 }
 
 .column2{
   float: left;
-  padding-left: 38px;
+  padding-left: 3%;
 }
 
 .row2{
-  padding-left: 200px;
+  padding-left: 13%;
 
 }
 
@@ -137,7 +137,7 @@ img:hover{
 
 .container2 button{
 
-  margin: 10px 0px 0px 850px;
+  margin: 10px 0px 0px 42%;
   background: #ecbd1f;
   font-size: 17px;
   border: none;
@@ -153,7 +153,7 @@ img:hover{
 
 .container3 button{
 
-  margin: 4px 50px 50px 730px;
+  margin: 4px 50px 50px 42%;
   background: #ecbd1f;
   font-size: 17px;
   border: none;
@@ -167,7 +167,7 @@ img:hover{
 
 .container4 button{
 
-  margin: 10px 0px 0px 810px;
+  margin: 10px 0px 0px 40%;
   background: #ecbd1f;
   font-size: 17px;
   border: none;
@@ -182,7 +182,7 @@ img:hover{
 
 .container5 button{
 
-  margin: 10px 0px 0px 830px;
+  margin: 10px 0px 0px 41%;
   background: #ecbd1f;
   font-size: 17px;
   border: none;
@@ -195,12 +195,46 @@ img:hover{
   background: #ffdf77;
 }
 
+.container6 button{
+
+  margin: 10px 0px 0px 0px;
+  background: #ecbd1f;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+  color: black;
+  padding: 5px 30px 5px 30px;
+}
+
+.container6 button:hover {
+  background: #ffdf77;
+}
+
+.container7 button{
+
+  margin: 10px 0px 0px 11%;
+  background: #ecbd1f;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+  color: black;
+  padding: 5px 30px 5px 30px;
+}
+
+.container7 button:hover {
+  background: #ffdf77;
+}
+
 .card-body {
   display: inline-grid;
   margin-top: 5px;
   margin-bottom: 20px;
+  margin-right: 30px;
+  margin-left: 30px;
   grid-template-columns: repeat(auto-fill, minmax(380px, 1fr));
   grid-gap: 15px;
-  background-color: #1f88df;
+  background-color: #cdd0d3;
   border-radius: 10px;
+  padding: 5px 90px 10px 20px;
+  color: black;
 }
