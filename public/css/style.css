@@ -137,13 +137,13 @@ img:hover{
 
 .container2 button{
 
-  margin: 10px 0px 0px 42%;
+  margin: 10px 0px 0px 41%;
   background: #ecbd1f;
   font-size: 17px;
   border: none;
   cursor: pointer;
   color: black;
-  padding: 5px 90px 10px 90px;
+  padding: 5px 119px 10px 100px;
 }
 
 .container2 button:hover {
@@ -167,13 +167,13 @@ img:hover{
 
 .container4 button{
 
-  margin: 10px 0px 0px 40%;
+  margin: 10px 0px 0px 41%;
   background: #ecbd1f;
   font-size: 17px;
   border: none;
   cursor: pointer;
   color: black;
-  padding: 5px 90px 10px 90px;
+  padding: 5px 67px 10px 68px;
 }
 
 .container4 button:hover {
@@ -222,6 +222,36 @@ img:hover{
 }
 
 .container7 button:hover {
+  background: #ffdf77;
+}
+
+.container8 button{
+
+  margin: 10px 0px 0px 41%;
+  background: #ecbd1f;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+  color: black;
+  padding: 5px 70px 10px 70px;
+}
+
+.container8 button:hover {
+  background: #ffdf77;
+}
+
+.container9 button{
+
+  margin: 10px 0px 0px 41%;
+  background: #ecbd1f;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+  color: black;
+  padding: 5px 100px 10px 90px;
+}
+
+.container9 button:hover {
   background: #ffdf77;
 }
 
