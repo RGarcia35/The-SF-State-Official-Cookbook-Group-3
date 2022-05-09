@@ -105,18 +105,18 @@ span.psw {
 }
 
 .row{
-  padding-left: 34%;
-  width:33.33%;
+  padding-left: 28%;
+  width:50%;
   text-align: center;
 }
 
 .column2{
   float: left;
-  padding-left: 38px;
+  padding-left: 3%;
 }
 
 .row2{
-  padding-left: 200px;
+  padding-left: 13%;
 
 }
 
@@ -136,8 +136,24 @@ img:hover{
 }
 
 .container2 button{
-  margin-top: 8px;
-  margin: 8px 12% 0 42%;
+
+  margin: 10px 0px 0px 41%;
+  background: #ecbd1f;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+  color: black;
+  padding: 5px 119px 10px 100px;
+}
+
+.container2 button:hover {
+  background: #ffdf77;
+}
+
+
+.container3 button{
+
+  margin: 4px 50px 50px 42%;
   background: #ecbd1f;
   font-size: 17px;
   border: none;
@@ -145,8 +161,97 @@ img:hover{
   color: black;
   padding: 5px 25px;
 }
+.container3 button:hover {
+  background: #ffdf77;
+}
 
-.container2 button:hover {
+.container4 button{
+
+  margin: 10px 0px 0px 41%;
+  background: #ecbd1f;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+  color: black;
+  padding: 5px 67px 10px 68px;
+}
+
+.container4 button:hover {
+  background: #ffdf77;
+}
+
+.container5 button{
+
+  margin: 10px 0px 0px 41%;
+  background: #ecbd1f;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+  color: black;
+  padding: 5px 90px 10px 90px;
+}
+
+.container5 button:hover {
+  background: #ffdf77;
+}
+
+.container6 button{
+
+  margin: 10px 0px 0px 0px;
+  background: #ecbd1f;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+  color: black;
+  padding: 5px 30px 5px 30px;
+}
+
+.container6 button:hover {
+  background: #ffdf77;
+}
+
+.container7 button{
+
+  margin: 10px 0px 0px 11%;
+  background: #ecbd1f;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+  color: black;
+  padding: 5px 30px 5px 30px;
+}
+
+.container7 button:hover {
+  background: #ffdf77;
+}
+
+.container8 button{
+
+  margin: 10px 0px 0px 41%;
+  background: #ecbd1f;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+  color: black;
+  padding: 5px 70px 10px 70px;
+}
+
+.container8 button:hover {
+  background: #ffdf77;
+}
+
+.container9 button{
+
+  margin: 10px 0px 0px 41%;
+  background: #ecbd1f;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+  color: black;
+  padding: 5px 100px 10px 90px;
+}
+
+.container9 button:hover {
   background: #ffdf77;
 }
 
@@ -154,8 +259,12 @@ img:hover{
   display: inline-grid;
   margin-top: 5px;
   margin-bottom: 20px;
+  margin-right: 30px;
+  margin-left: 30px;
   grid-template-columns: repeat(auto-fill, minmax(380px, 1fr));
   grid-gap: 15px;
-  background-color: #1f88df;
+  background-color: #cdd0d3;
   border-radius: 10px;
+  padding: 5px 90px 10px 20px;
+  color: black;
 }

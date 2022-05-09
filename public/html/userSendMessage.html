@@ -19,7 +19,7 @@
                 <option value="">Asian</option>
                 <option value="">Mexican</option>
                 <option value="">French</option>
-                <option value="">Vegiterranean</option>
+                <option value="">Vegetarian</option>
                 <option value="">Vegan</option>
             </select>
             <input type="text" placeholder="Search.." name="search" autocomplete="off" >
@@ -29,22 +29,31 @@
         <a style="float:right" href="../html/login.html">Login/Register</a>
       </div>
       
-      <div style="padding-left:35%">
+      <div style="padding-left:42%">
         <h1>Send Message</h1>
       </div>
 
       <div style="padding-left:35%">
-      <form action="/sendMessage">
-        <label>Enter name of recipient:</label> <input type="text" name="name" minlength="2" maxlength="60">
-        <br>
+        <div style = "padding-left: 10%; padding-bottom: 2%;">
+        <label>Sending message to: <a href = "userProfile.html">User123</a></label>
+        </div>
+
+        <div style = "padding-left: 14%; padding-bottom: 1%;">
+          <label>Recipe Name: </label>
+          </div>
+          <textarea rows="2" cols="70"> 
+          </textarea>
+
+        <div style = "padding-left: 15%; padding-bottom: 1%;">
         <label>Message: </label>
-        <br>
-        <textarea name="message" rows="5" cols="30"> 
+        </div>
+        <textarea rows="8" cols="70"> 
         </textarea>
-        <br>
-        <label>SEND </label>
-      </form>
-       </div>
+        <div class="container7"> 
+          <form action = "../html/userInbox.html">
+            <button type="submit">Send Message</button>
+          </form>
+        </div>
       
 </body>
 

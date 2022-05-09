@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Login</title>
+    <title>User's Profile</title>
     <link rel="stylesheet" href="../css/style.css" />
 </head>
 
@@ -26,39 +26,34 @@
             <button type="submit">Submit</button>
           </form>
         </div>
-        <a class="active" style="float:right" href="../html/login.html">Login/Register</a>
+        <a style="float:right" href="../html/login.html">Login/Register</a>
       </div>
       
-      <div style="padding-left:44%">
-        <h1>Login</h1>
+      <div style="padding-left:41%">
+        <h1>Update Account</h1>
       </div>
 
       <div class="container">
+        <label for="email"><b>Email</b></label>
+        <input type="text" placeholder="Update Email" name="email" autocomplete="off" required>
+  
         <label for="uname"><b>Username</b></label>
-        <input type="text" placeholder="Enter Username" name="uname" autocomplete="off" required>
+        <input type="text" placeholder="Update Username" name="uname" autocomplete="off" required>
     
-        <label for="psw"><b>Password</b></label>
-        <input type="password" placeholder="Enter Password" name="psw" autocomplete="off" required>
+        <label for="psw"><b>Update Password</b></label>
+        <input type="password" placeholder="Enter New Password" name="psw" autocomplete="off" required>
         
-        <form action = "../html/userProfile.html">
-          <button type="submit">Login</button>
+        <label for="pswConfirm"><b>Confirm Password</b></label>
+        <input type="password" placeholder="Re-enter New Password" name="pswConfirm" autocomplete="off" required>
+  
+        <form action = "../html/login.html">
+          <button type="submit">Update</button>
         </form>
-        
-        <label>
-          <input type="checkbox" checked="checked" name="remember"> Remember me
-        </label>
-
-      </div>
-
-      <div class="container" style="background-color:#f1f1f1">
-        <span class="psw">Forgot <a href="../html/login.html">Password?</a></span>
-      </div>
-      
-      <br>
-      
-      <div class="container" style="background-color:#f1f1f1">
-        <span class="psw">Register <a href="../html/createAccount.html">Here</a></span>
-      </div>
+  
+        <form action = "../html/index.html">
+          <button type="submit">Exit</button>
+        </form>
 </body>
+
 
 </html>
